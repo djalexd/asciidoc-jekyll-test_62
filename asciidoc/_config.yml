@@ -1,0 +1,9 @@
+gems:
+  - jekyll-asciidoc
+asciidoc: asciidoctor
+source: .
+destination: site
+# Sass conversion configs
+sass:
+    sass_dir: assets/css/_sass
+    style: :compressed

@@ -1,0 +1,12 @@
+---
+layout: page
+permalink: /api
+---
+
+== About the API
+
+The API element of the platform handles all processes
+
+* A
+* B
+* B
