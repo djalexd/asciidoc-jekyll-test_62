@@ -2,7 +2,10 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'asciidoctor'
-gem 'jekyll-asciidoc'
+
+group :jekyll_plugins do
+  gem 'jekyll-asciidoc'
+end
 
 # Install theme
 #gem 'jekyll-harmony-theme', '~> 0.1.0'

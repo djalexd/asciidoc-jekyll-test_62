@@ -9,4 +9,16 @@ The API element of the platform handles all processes
 
 * A
 * B
-* B
+* C
+
+{{ site.time }}
+
+=== Static files
+{% for f in site.static_files %}
+* {{ f.path }}
+{% endfor %}
+
+=== Pages
+{% for p in site.pages %}
+* {{ p.name }} => {{ p.path }}
+{% endfor %}
